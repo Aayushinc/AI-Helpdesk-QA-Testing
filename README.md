@@ -178,12 +178,3 @@ AI-Helpdesk-QA-Portfolio/
 │
 ├── bug-reports/
 │   └── Bug_Reports.md
-│
-├── test-scenarios/
-│   └── Test_Scenarios.md
-│
-├── risks-and-gaps/
-│   └── Risks_And_Gaps.md
-│
-└── screenshots/
-    └── Admin_Panel.png
