@@ -1,10 +1,11 @@
 QA Test Cases — AI-Powered IT Helpdesk Ticketing System
 | TC ID | Module | Test Case Title | Steps | Expected Results | Priority |
 |----|----------|----------------|------------|--------|------------------|
-TC-001	Authentication	Verify end user can log in with valid credentials	1. Open login page. 2. Enter valid end user email and password. 3. Click Login.	User is logged in and redirected to the end user dashboard or ticket page.	High
-TC-002	Authentication	Verify technician is redirected to technician view after login	1. Log in as technician. 2. Observe landing page and menu options.	Technician sees only technician-allowed features and assigned-ticket views.	High
-TC-003	Authentication	Verify admin is redirected to admin dashboard after login	1. Log in as admin. 2. Observe dashboard and navigation menu.	Admin sees admin dashboard, user management, KB, inventory, audit logs, and ticket management.	High
-TC-004	Authentication	Verify login fails with invalid password	1. Enter valid email. 2. Enter wrong password. 3. Click Login.	Login is denied and a clear error message is displayed.	High
+| TC-001 | Authentication | Verify end user can log in with valid credentials | 1. Open login page.<br>2. Enter valid end user email and password.<br>3. Click Login. | User is logged in and redirected to the end user dashboard or ticket page. | High |
+| TC-002 | Authentication | Verify technician is redirected to technician view after login | 1. Log in as technician.<br>2. Observe landing page and menu options. | Technician sees only technician-allowed features and assigned-ticket views. | High |
+| TC-003 | Authentication | Verify admin is redirected to admin dashboard after login | 1. Log in as admin.<br>2. Observe dashboard and navigation menu. | Admin sees admin dashboard, user management, KB, inventory, audit logs, and ticket management. | High |
+| TC-004 | Authentication | Verify login fails with invalid password | 1. Enter valid email.<br>2. Enter wrong password.<br>3. Click Login. | Login is denied and a clear error message is displayed. | High |
+
 TC-005	Authentication	Verify empty login fields validation	1. Leave email and password blank. 2. Click Login.	Required field validation is displayed for email and password.	Medium
 TC-006	Authentication	Verify logout ends user session	1. Log in. 2. Click Logout. 3. Try accessing a protected page using browser back or URL.	User is logged out and cannot access protected pages without logging in again.	High
 TC-007	Authentication	Verify direct URL access is blocked for unauthenticated user	1. Log out. 2. Paste a protected admin/technician/user URL.	User is redirected to login or shown unauthorized access message.	High
