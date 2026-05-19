@@ -3,7 +3,7 @@
 ## High Severity Bugs
 
 | Report ID | Category | Module | Title | Environment | Severity | Priority | Preconditions | Steps to Reproduce | Expected Result | Actual Result |
-|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | BUG-HIGH-001 | Bug | Authentication | End user can access Admin Panel using direct URL | Chrome / Firefox | High | High | End user account exists and is logged in | 1. Log in as End User.<br>2. Copy/paste Admin Panel URL in browser.<br>3. Press Enter. | End user should be blocked or redirected to unauthorized page. | End user is able to access the Admin Panel page. |
 | BUG-HIGH-002 | Bug | Authentication | User remains logged in after clicking Logout | Chrome / Firefox | High | High | User is logged in | 1. Click Logout.<br>2. Click browser Back button.<br>3. Refresh the page. | User should not access protected pages after logout. | User can still view the previous authenticated page. |
 | BUG-HIGH-003 | Bug | Ticket Creation | Ticket is created with blank required fields | Chrome / Firefox | High | High | User is logged in as End User | 1. Open Create Ticket page.<br>2. Leave category, title, description, and priority blank.<br>3. Click Submit. | Required field validation should display and ticket should not be created. | Ticket is created even though required fields are missing. |
