@@ -1,4 +1,6 @@
 QA Test Cases — AI-Powered IT Helpdesk Ticketing System
+| ID | Module | Test Case Title | Steps | Expected Results | Priority |
+|----|----------|----------------|------------|--------|------------------|
 TC ID	Module	Test Case Title	Steps	Expected Result	Priority
 TC-001	Authentication	Verify end user can log in with valid credentials	1. Open login page. 2. Enter valid end user email and password. 3. Click Login.	User is logged in and redirected to the end user dashboard or ticket page.	High
 TC-002	Authentication	Verify technician is redirected to technician view after login	1. Log in as technician. 2. Observe landing page and menu options.	Technician sees only technician-allowed features and assigned-ticket views.	High
