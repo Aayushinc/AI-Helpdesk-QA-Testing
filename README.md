@@ -106,6 +106,7 @@ Testing focuses on:
 | Testing Type | Manual Testing |
 | Test Data | Users, admins, technicians, tickets, KB entries, inventory records |
 | Environment | QA/Staging environment |
+| API Tool | Postman |
 
 ---
 
@@ -178,3 +179,7 @@ AI-Helpdesk-QA-Portfolio/
 │
 ├── bug-reports/
 │   └── Bug_Reports.md
+|
+|── API-Testing/
+|   └── Test-Plan.md 
+|        └── Test-Cases.md 
