@@ -1,4 +1,4 @@
-# AI-Powered IT Helpdesk Ticketing System — QA Portfolio
+# QA Portfolio - AI-Powered IT Helpdesk Ticketing System 
 
 ## Project Overview
 
