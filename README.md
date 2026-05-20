@@ -2,11 +2,12 @@
 
 ## Project Overview
 
+
 The **AI-Powered IT Helpdesk Ticketing System** is a web-based IT support platform designed for end users, helpdesk technicians, and admins.
 
 The system allows users to raise IT support tickets, receive AI-assisted troubleshooting suggestions, track ticket progress, and communicate with support staff. Admins and technicians can manage tickets, update statuses, assign technicians, use AI-generated solutions, maintain a Knowledge Base, manage inventory, review audit logs, and handle user accounts.
 
-This repository contains the **manual QA testing documentation** for the project.
+This repository contains the **QA testing documentation** for the project.
 
 ---
 
